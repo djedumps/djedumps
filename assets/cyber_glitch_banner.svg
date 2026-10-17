@@ -129,7 +129,7 @@
   <!-- TOP HUD BAR -->
   <g class="tech-hud">
     <text x="30" y="32">[SYS_ID: CODENEXT_NEXUS_V1.0]</text>
-    <text x="380" y="32" fill="#00ff66" text-anchor="middle">// PROTOCOL: CYBERPUNK_OVERRIDE</text>
+    <text x="380" y="32" fill="#00ff66" text-anchor="middle">// PROTOCOL: THE_HIVE_DISRUPTIVE</text>
     <text x="820" y="32" text-anchor="end" fill="#ff003c">[SECURITY: UNRESTRICTED]</text>
   </g>
 
