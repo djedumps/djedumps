@@ -7,12 +7,14 @@
 
 <!-- CYBER TERMINAL TYPING ANIMATION -->
 <a href="https://github.com/djedumps">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&duration=2500&pause=1200&color=00F0FF&center=true&vCenter=true&multiline=false&width=800&height=50&lines=%3E%3E+%5BSYS_INIT%5D+ESTABLISHING+NEURAL+LINK...;%3E%3E+%5BOPERATOR%5D+EDU+SOARES+%2F%2F+HANDLE%3A+DJEDUMPS;%3E%3E+%5BDIRECTIVE%5D+ENGINEERING+NEXT-GEN+CYBER+DEVELOPER+STUDIOS;%3E%3E+%5BCODENEXT%5D+THECODENEXT+STUDIO+%2F%2F+ZYNTRA+%2F%2F+KELVIO+%2F%2F+VIBRI;%3E%3E+%5BOVERRIDE%5D+AUTONOMOUS+AI+AGENTS+ENGAGED+%2F%2F+100%25+STABLE" alt="Cyber Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=19&duration=2400&pause=1100&color=00F0FF&center=true&vCenter=true&multiline=false&width=840&height=50&lines=%3E%3E+%5BSYS_INIT%5D+ESTABLISHING+NEURAL+LINK...;%3E%3E+%5BOPERATOR%5D+EDU+SOARES+%2F%2F+HANDLE%3A+DJEDUMPS;%3E%3E+%5BHIVE%5D+VOLTTRIX+%2F%2F+FAN+CONTROL+%2F%2F+ZYNTRA+%2F%2F+KELVIO+%2F%2F+VIBRI;%3E%3E+%5BFLAGSHIP%5D+THECODENEXT+STUDIO+%2F%2F+AUTONOMOUS+AI+IDE;%3E%3E+%5BPORTAL%5D+HTTPS%3A%2F%2FTHECODENEXT.COM+%2F%2F+100%25+FREE+%26+OPEN" alt="Cyber Typing Banner" />
 </a>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/SYS__STATUS-OVERCLOCKED-00F0FF?style=for-the-badge&logo=target&logoColor=black" alt="Status Overclocked" />
-  <img src="https://img.shields.io/badge/SECURITY-UNRESTRICTED-FF003C?style=for-the-badge&logo=wireguard&logoColor=white" alt="Security Unrestricted" />
+  <a href="https://thecodenext.com">
+    <img src="https://img.shields.io/badge/ECOSYSTEM-THECODENEXT.COM-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="thecodenext.com" />
+  </a>
+  <img src="https://img.shields.io/badge/SYS__STATUS-OVERCLOCKED-FF003C?style=for-the-badge&logo=target&logoColor=white" alt="Status Overclocked" />
   <img src="https://img.shields.io/badge/PROTOCOL-CYBERPUNK__STUDIO-FFE600?style=for-the-badge&logo=electron&logoColor=black" alt="Protocol Cyberpunk" />
   <img src="https://img.shields.io/badge/CORE-CODENEXT-7000FF?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="CodeNext Core" />
 </p>
@@ -28,29 +30,33 @@
 ================================================================================
 [+] OPERATOR IDENTITY  : Edu Soares [djedumps]
 [+] CYBERNETIC ROLE    : Founder, Lead Architect & Desktop Systems Engineer
-[+] ORGANIZATION       : CodeNext
+[+] ORGANIZATION       : CodeNext [https://thecodenext.com]
 [+] LOCATION NODE      : Portugal // GMT [Grid Sector EU-W]
-[+] RUNTIME PLATFORM   : TheCodeNext Studio (Autonomous Multi-Agent Cyber IDE)
+[+] FLAGSHIP STUDIO    : TheCodeNext Studio (Autonomous Multi-Agent Cyber IDE)
+[+] ECOSYSTEM DECK     : Volttrix, Fan Control, Zyntra, Kelvio, Vibri, Kings Hub
 [+] SYSTEM ARSENAL     : Python 3.12, FastAPI, React 18, Electron, C#, Rust, SQL
-[+] MISSION DIRECTIVE  : Neutralize developer latency via autonomous AI tooling
+[+] MISSION DIRECTIVE  : Disruptive software, 100% free, no ads, zero latency
 ================================================================================
 [!] SCANLINE LOG       : Glitch buffer synchronized // Zero memory leaks detected
 [>] QUANTUM ENCRYPTION : ACTIVE [Quantum-256-GCM]
-[>] AGENT STATUS       : 4 Autonomous Daemons Running in Parallel
+[>] AGENT STATUS       : Autonomous Daemons Running in Parallel
 ```
 
 ---
 
 <div align="center">
 
-### // CODENEXT DEPLOYED ECOSYSTEM
+### // CODENEXT DEPLOYED ECOSYSTEM &amp; PLATFORMS
 
-| Unit | Sub-System | Architecture &amp; Matrix | Operational State |
-| :--- | :--- | :--- | :--- |
-| `[SYS_01]` | **TheCodeNext Studio** | React 18 / Monaco Editor / FastAPI / Electron | **ACTIVE // OVERRIDE** |
-| `[SYS_02]` | **Zyntra** | Electron / SQLite3 / CodeNext Native Setup | **DEPLOYED // SHIPPED** |
-| `[SYS_03]` | **Kelvio** | Node.js / Electron Automation Engine / NSIS | **DEPLOYED // SHIPPED** |
-| `[SYS_04]` | **Vibri** | .NET 8 / C# WPF / Whisper AI / WebView2 | **DEPLOYED // SHIPPED** |
+| Unit | Sub-System | Architecture &amp; Matrix | Operational State | Catalog &amp; Access |
+| :--- | :--- | :--- | :--- | :--- |
+| `[SYS_01]` | **TheCodeNext Studio** | React 18 / Monaco Editor / FastAPI / Electron | **ACTIVE // FLAGSHIP** | [Internal Build](https://thecodenext.com) |
+| `[SYS_02]` | **Volttrix** | Cross-Platform Battery Sync (Electron / Android / Web) | **ONLINE // PRODUCTION** | [MS Store &amp; Web](https://thecodenext.com/apps/volttrix) |
+| `[SYS_03]` | **Fan Control** | Windows Real-Time Thermal &amp; Fan Curve Controller | **ONLINE // PRODUCTION** | [Official Portal](https://thecodenext.com/apps/fan-control) |
+| `[SYS_04]` | **Zyntra** | Desktop Telemetry &amp; Management (Electron / SQLite3) | **ONLINE // PRODUCTION** | [Official Portal](https://thecodenext.com/apps/zyntra) |
+| `[SYS_05]` | **Kelvio** | High-Efficiency Productivity &amp; Automation Engine | **ONLINE // PRODUCTION** | [Official Portal](https://thecodenext.com/apps/kelvio) |
+| `[SYS_06]` | **Vibri** | Audio Processing &amp; Speech Intelligence (.NET 8 / C#) | **ONLINE // PRODUCTION** | [CodeNext Suite](https://thecodenext.com) |
+| `[SYS_07]` | **Kings Hub** | Community Gaming &amp; Modding Platform | **COMING SOON** | [Catalog](https://thecodenext.com/apps/kings-hub) |
 
 ---
 
@@ -118,6 +124,9 @@
 ### // NEURAL LINK &amp; DISPATCH
 
 <p align="center">
+  <a href="https://thecodenext.com">
+    <img src="https://img.shields.io/badge/PORTAL-THECODENEXT.COM-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portal" />
+  </a>
   <a href="https://github.com/djedumps">
     <img src="https://img.shields.io/badge/GITHUB-PROFILE-050813?style=for-the-badge&logo=github&logoColor=00F0FF" alt="GitHub" />
   </a>
