@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 250" width="100%" height="250">
+  <defs>
+    <!-- GRID PATTERN -->
+    <pattern id="cyber-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.12" />
+    </pattern>
+
+    <!-- NEON GLOW FILTERS -->
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-pink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes glitch-cyan {
+        0%, 100% { transform: translate(0, 0); opacity: 0; }
+        15% { transform: translate(-4px, 2px); opacity: 0.9; }
+        17% { transform: translate(0, 0); opacity: 0; }
+        42% { transform: translate(-6px, -2px); opacity: 0.85; }
+        44% { transform: translate(0, 0); opacity: 0; }
+        68% { transform: translate(-3px, 1px); opacity: 0.8; }
+        70% { transform: translate(0, 0); opacity: 0; }
+        88% { transform: translate(-5px, 2px); opacity: 0.9; }
+        90% { transform: translate(0, 0); opacity: 0; }
+      }
+
+      @keyframes glitch-pink {
+        0%, 100% { transform: translate(0, 0); opacity: 0; }
+        16% { transform: translate(4px, -2px); opacity: 0.9; }
+        18% { transform: translate(0, 0); opacity: 0; }
+        43% { transform: translate(6px, 2px); opacity: 0.85; }
+        45% { transform: translate(0, 0); opacity: 0; }
+        69% { transform: translate(3px, -1px); opacity: 0.8; }
+        71% { transform: translate(0, 0); opacity: 0; }
+        89% { transform: translate(5px, -2px); opacity: 0.9; }
+        91% { transform: translate(0, 0); opacity: 0; }
+      }
+
+      @keyframes glitch-skew {
+        0%, 100% { transform: skew(0deg); }
+        15% { transform: skew(2.5deg); }
+        17% { transform: skew(0deg); }
+        42% { transform: skew(-3deg); }
+        44% { transform: skew(0deg); }
+        68% { transform: skew(1.5deg); }
+        70% { transform: skew(0deg); }
+        88% { transform: skew(-2deg); }
+        90% { transform: skew(0deg); }
+      }
+
+      @keyframes scanline {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(250px); }
+      }
+
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      @keyframes pulse-hud {
+        0%, 100% { opacity: 0.95; }
+        50% { opacity: 0.65; }
+      }
+
+      .tech-hud {
+        font-family: 'Consolas', 'Courier New', monospace;
+        font-size: 11px;
+        fill: #00f0ff;
+        letter-spacing: 2px;
+      }
+
+      .main-title {
+        font-family: 'Segoe UI', -apple-system, 'Impact', 'Consolas', monospace;
+        font-size: 48px;
+        font-weight: 900;
+        letter-spacing: 8px;
+      }
+
+      .sub-title {
+        font-family: 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        fill: #ffe600;
+      }
+
+      .status-tag {
+        font-family: 'Consolas', 'Courier New', monospace;
+        font-size: 11px;
+        fill: #ff003c;
+        letter-spacing: 1.5px;
+      }
+    </style>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="850" height="250" fill="#050813" rx="8" />
+  <rect width="850" height="250" fill="url(#cyber-grid)" rx="8" />
+
+  <!-- CYBER CORNER BORDERS -->
+  <g class="tech-hud" animation="pulse-hud 4s ease-in-out infinite">
+    <!-- Top-left bracket -->
+    <path d="M 15 45 L 15 15 L 45 15" fill="none" stroke="#00f0ff" stroke-width="2" />
+    <!-- Top-right bracket -->
+    <path d="M 835 45 L 835 15 L 805 15" fill="none" stroke="#00f0ff" stroke-width="2" />
+    <!-- Bottom-left bracket -->
+    <path d="M 15 205 L 15 235 L 45 235" fill="none" stroke="#ff003c" stroke-width="2" />
+    <!-- Bottom-right bracket -->
+    <path d="M 835 205 L 835 235 L 805 235" fill="none" stroke="#00f0ff" stroke-width="2" />
+
+    <!-- Outer frame line -->
+    <line x1="45" y1="15" x2="805" y2="15" stroke="#1e293b" stroke-width="1" />
+    <line x1="45" y1="235" x2="805" y2="235" stroke="#1e293b" stroke-width="1" />
+    <line x1="15" y1="45" x2="15" y2="205" stroke="#1e293b" stroke-width="1" />
+    <line x1="835" y1="45" x2="835" y2="205" stroke="#1e293b" stroke-width="1" />
+  </g>
+
+  <!-- TOP HUD BAR -->
+  <g class="tech-hud">
+    <text x="30" y="32">[SYS_ID: CODENEXT_NEXUS_V1.0]</text>
+    <text x="380" y="32" fill="#00ff66" text-anchor="middle">// PROTOCOL: CYBERPUNK_OVERRIDE</text>
+    <text x="820" y="32" text-anchor="end" fill="#ff003c">[SECURITY: UNRESTRICTED]</text>
+  </g>
+
+  <!-- GLITCH TEXT WRAPPER -->
+  <g transform="translate(425, 115)" style="animation: glitch-skew 3s infinite;">
+    <!-- CYAN GLITCH LAYER -->
+    <text class="main-title" x="0" y="0" text-anchor="middle" fill="#00f0ff" style="animation: glitch-cyan 3s infinite;" filter="url(#glow-cyan)">EDU SOARES</text>
+
+    <!-- PINK/MAGENTA GLITCH LAYER -->
+    <text class="main-title" x="0" y="0" text-anchor="middle" fill="#ff003c" style="animation: glitch-pink 3s infinite;" filter="url(#glow-pink)">EDU SOARES</text>
+
+    <!-- CORE WHITE TEXT -->
+    <text class="main-title" x="0" y="0" text-anchor="middle" fill="#ffffff">EDU SOARES</text>
+  </g>
+
+  <!-- SUBTITLE & HANDLES -->
+  <g transform="translate(425, 155)">
+    <text class="sub-title" x="0" y="0" text-anchor="middle">// FOUNDER &amp; LEAD ARCHITECT @ CODENEXT</text>
+  </g>
+
+  <g transform="translate(425, 185)">
+    <text class="status-tag" x="0" y="0" text-anchor="middle" fill="#00f0ff">&gt;&gt; HIGH-PERFORMANCE DESKTOP STUDIOS &amp; AUTONOMOUS AI AGENTS &lt;&lt;</text>
+  </g>
+
+  <!-- BOTTOM HUD BAR -->
+  <g class="tech-hud">
+    <text x="30" y="222" fill="#00ff66">[LINK: ESTABLISHED]</text>
+    <text x="425" y="222" text-anchor="middle" fill="#94a3b8">HANDLE: djedumps | MATRIX: ACTIVE <tspan fill="#00f0ff" style="animation: blink 0.8s infinite;">_</tspan></text>
+    <text x="820" y="222" text-anchor="end" fill="#ffe600">[NEURAL_CORE: 100%]</text>
+  </g>
+
+  <!-- SCANLINE OVERLAY -->
+  <rect x="0" y="0" width="850" height="6" fill="#00f0ff" opacity="0.12" style="animation: scanline 4s linear infinite;" />
+</svg>
